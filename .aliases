@@ -1,6 +1,10 @@
+# Unix
 alias ..="cd .."
 alias ...="cd ../.."
 alias ips="ifconfig"
 
+# Git
 alias herokupm="git push heroku master"
 alias dokkupm="git push dokku master"
+
+alias gphead="git push origin head"
