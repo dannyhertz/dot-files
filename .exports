@@ -10,10 +10,3 @@ export LC_ALL="en_US.UTF-8"
 
 # Always enable colored 'grep' output
 export GREP_OPTIONS="--color=auto"
-
-# Docker settings
-export DOCKER_HOST=tcp://192.168.59.103:2375
-
-docker-ip() {
-  boot2docker ip 2> /dev/null
-}

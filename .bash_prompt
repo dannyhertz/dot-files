@@ -27,9 +27,13 @@ function git_color {
     fi
 }
 
+# Set the prompt style/color
 export PS1='\[\033[0;35m\]⌘ \[\033[0;34m\]\w/\[$(git_color)\]$(git_branch)\[\033[m\] '
 
 # Bash completion
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
+ # Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
