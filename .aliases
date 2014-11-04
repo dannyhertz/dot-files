@@ -1,0 +1,6 @@
+alias ..="cd .."
+alias ...="cd ../.."
+alias ips="ifconfig"
+
+alias herokupm="git push heroku master"
+alias dokkupm="git push dokku master"

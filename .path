@@ -1,0 +1,11 @@
+# Add RVM to PATH for scripting
+export PATH=$PATH:$HOME/.rvm/bin
+
+# Check local first for Brew
+export PATH=/usr/local/bin:$PATH
+
+# Check npm for executables
+export PATH=/usr/local/share/npm/bin:$PATH
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
